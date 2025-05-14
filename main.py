@@ -370,7 +370,7 @@ def main ():
 	win = Window(1024,768,"Thicc Maze Thing")
 
 
-	m = Maze(100, 100, 5, 5, 25, 25, win)
+	m = Maze(100, 100, 15, 15, 25, 25, win)
 
 	# when it's ready
 	m.solve()
