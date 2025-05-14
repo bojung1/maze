@@ -363,16 +363,8 @@ class Maze():
 
 		return False 
 
-
-
-
-
-
+# This is just here cause I like the visual divider.
 # ===============================================================
-# ===============================================================
-
-
-
 
 def main ():
 	win = Window(1024,768,"Thicc Maze Thing")
@@ -416,58 +408,3 @@ def main ():
 
 if __name__ == "__main__":
 	main()
-
-
-#leftover visual testing, delete when deprecated
-#also some syntax referencing 
-	
-	"""
-	cell = Cell(win) 
-	cell.has_bottom_wall = False 
-	cell.draw(p7.x, p8.x, p7.y, p8.y)
-	
-
-	
-
-	p1 = Point(5,5)
-	p2 = Point(10,10)
-	p3 = Point(100,100)
-	p4 = Point(50,50)
-
-	l1 = Line(p1, p2)
-	l2 = Line(p3, p4)
-
-	p5 = Point(200,300)
-	p6 = Point(200,300)
-
-	p7 = Point(350,375)
-	p8 = Point(365,400)
-
-
-	
-	win.draw_line(l1,"black")
-	win.draw_line(l2,"red")
-	
-	c = Cell(win, 50, 50, 100, 100)
-	c.has_right_wall = False
-	c.draw(50, 50, 100, 100)
-
-	d = Cell(win, 100, 50, 150, 100)
-	d.has_left_wall = False
-	d.draw(100, 50, 150, 100)
-	c.draw_move(d, True)
-
-	d = Cell(win) 
-	d.draw(p5.x, p6.x, p5.y, p6.y)
-
-
-	ee = Cell(win, 250, 250, 500, 500)
-	ee.has_bottom_wall = False
-	ee.draw(250, 250, 500, 500)
-
-	ff = Cell(win, 250, 500, 500, 750)
-	ff.has_top_wall = False
-	ff.draw(250, 500, 500, 750)
-	
-	ee.draw_move(ff,False)
-	"""
